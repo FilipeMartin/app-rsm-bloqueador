@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rsmbloqueador.rsmbloqueador.Configuracao"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="12dp">
+
+        <Switch
+            android:id="@+id/btnSecurityLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_configuration_top"
+            android:drawableLeft="@mipmap/ic_adm"
+            android:drawablePadding="8dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:text="Login de Segurança" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dadada" />
+
+        <Button
+            android:id="@+id/btnPlatformToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:background="@drawable/btn_configuration"
+            android:drawableLeft="@mipmap/ic_satelite"
+            android:drawablePadding="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="3dp"
+            android:textAllCaps="false"
+            android:gravity="center|start"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:text="Token de Acesso à Plataforma" />
+
+        <View
+            android:id="@+id/btnBar"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dadada" />
+
+        <Button
+            android:id="@+id/btnCheckAppUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:background="@drawable/btn_configuration"
+            android:drawableLeft="@mipmap/ic_app_update"
+            android:drawablePadding="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="3dp"
+            android:textAllCaps="false"
+            android:gravity="center|start"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:text="Verificar Atualização" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dadada" />
+
+        <Button
+            android:id="@+id/btnAppVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stateListAnimator="@null"
+            android:background="@drawable/btn_configuration"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:drawablePadding="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="3dp"
+            android:textAllCaps="false"
+            android:gravity="center|start"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:text="@string/versao_app" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dadada" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todos_direitos_reservados"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todos_direitos_reservados_2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</LinearLayout>

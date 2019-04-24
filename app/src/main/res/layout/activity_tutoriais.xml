@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rsmbloqueador.rsmbloqueador.ActivityTutoriais"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/youtubePlay"
+        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtYoutubePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="Tutorial: App RSM Bloqueador" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#dadada" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewAppRsm"
+                        android:layout_width="162dp"
+                        android:layout_height="98dp"
+                        app:srcCompat="@drawable/tutorial_app_rsm" />
+
+                    <TextView
+                        android:id="@+id/textViewAppRsm"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="15dp"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:text="Tutorial:\nApp RSM Bloqueador" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewPlataforma"
+                        android:layout_width="162dp"
+                        android:layout_height="98dp"
+                        app:srcCompat="@drawable/tutorial_plataforma" />
+
+                    <TextView
+                        android:id="@+id/textViewPlataforma"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="15dp"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:text="Tutorial:\nPlataforma Online" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/imageViewPlataformaDesktop"
+                        android:layout_width="162dp"
+                        android:layout_height="98dp"
+                        app:srcCompat="@drawable/tutorial_plataforma_desktop" />
+
+                    <TextView
+                        android:id="@+id/textViewPlataformaDesktop"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="15dp"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:text="Tutorial:\nPlataforma Online pelo Desktop" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/todos_direitos_reservados"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/todos_direitos_reservados_2"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

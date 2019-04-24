@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rsmbloqueador.rsmbloqueador.ActivityBanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio"
+    android:gravity="bottom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="6dp"
+        android:paddingBottom="4dp"
+        android:text="@string/versao_app"
+        android:textAlignment="textEnd"
+        android:gravity="right"
+        android:textColor="@color/colorBlack"
+        android:textSize="14sp" />
+
+</LinearLayout>

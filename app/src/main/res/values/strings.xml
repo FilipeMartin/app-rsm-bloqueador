@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RSM Bloqueador</string>
+    <string name="app_nome">RSM</string>
+
+    <string name="msg_permissao">Por favor, habilite todas as permissões !</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="versao_paga">Versão Paga</string>
+    <string name="versao_gratuita">Versão Gratuita</string>
+
+    <string name="action_listar_usuarios">Veículos Cadastrados</string>
+    <string name="action_cadastrar_usuarios">Cadastrar Veículo</string>
+    <string name="action_configuracao">Configuração</string>
+    <string name="action_sair">Sair</string>
+
+    <string name="todos_direitos_reservados">Todos os direitos reservados.</string>
+    <string name="todos_direitos_reservados_2">Copyright &#169; RSM Bloqueador.</string>
+
+    <string name="title_activity_cadastrar">Cadastrar</string>
+
+    <string name="versao_app_number">2.0</string>
+    <string name="versao_app">Versão 2.0</string>
+</resources>

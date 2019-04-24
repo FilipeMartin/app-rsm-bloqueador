@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_atualizar_gps_online"
+        android:icon="@mipmap/ic_atualizar"
+        android:orderInCategory="100"
+        android:title="Atualizar Plataforma"
+        app:showAsAction="ifRoom"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_comando_voz"
+        android:icon="@mipmap/ic_voz"
+        android:orderInCategory="100"
+        android:title="Comando de Voz"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_listar_usuarios"
+        android:orderInCategory="100"
+        android:title="@string/action_listar_usuarios" />
+
+    <item
+        android:id="@+id/action_cadastrar_usuarios"
+        android:orderInCategory="100"
+        android:title="@string/action_cadastrar_usuarios" />
+
+    <item
+        android:id="@+id/action_configuracao"
+        android:orderInCategory="100"
+        android:title="@string/action_configuracao" />
+
+    <item
+        android:id="@+id/action_sair"
+        android:orderInCategory="100"
+        android:title="@string/action_sair" />
+
+</menu>

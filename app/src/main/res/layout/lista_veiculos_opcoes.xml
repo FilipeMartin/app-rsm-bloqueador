@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNomeVeiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:background="@drawable/btn_arredondar_veiculos_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="11dp"
+        android:text="Atualizar" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:background="@drawable/btn_arredondar_veiculos_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="11dp"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/btnExcluir"
+        android:background="@drawable/btn_arredondar_veiculos_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="Excluir" />
+</LinearLayout>

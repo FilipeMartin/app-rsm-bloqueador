@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/progress_sms_1"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_2"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_3"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_4"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_5"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_6"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_7"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_sms_9"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_10"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_11"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_12"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_13"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_14"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_15"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_16"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/progress_sms_17"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_18"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_19"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_20"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_21"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_22"
+        android:duration="100" />
+
+    <item
+        android:drawable="@drawable/progress_sms_23"
+        android:duration="100" />
+
+</animation-list>
